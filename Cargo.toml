@@ -1,0 +1,19 @@
+[package]
+version = "0.1.0"
+edition = "2021"
+name = "discern"
+description = "A Rust library for implementing the Command Query Responsibility Segregation (CQRS) pattern."
+license = "MIT"
+repository = "https://github.com/azjezz/discern"
+documentation = "https://docs.rs/discern"
+homepage = "https://github.com/azjezz/discern"
+readme = "README.md"
+keywords = ["cqrs", "command", "query", "rust", "async"]
+categories = ["asynchronous", "web-programming", "concurrency"]
+authors = ["azjezz <azjezz@protonmail.com"]
+
+[dependencies]
+async-trait = "0.1.81"
+
+[dev-dependencies]
+tokio = { version = "1.39.2", features = ["rt", "macros"] }
