@@ -1,7 +1,7 @@
 # Discern
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/yourusername/discern/ci.yml)
-![License](https://img.shields.io/github/license/yourusername/discern)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/azjezz/discern/ci.yml)
+![License](https://img.shields.io/github/license/azjezz/discern)
 
 Discern is a Rust library that implements the Command Query Responsibility Segregation (CQRS) pattern. It provides an easy-to-use framework for separating the write operations (commands) from the read operations (queries) in your Rust applications.
 
